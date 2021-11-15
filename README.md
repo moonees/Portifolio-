@@ -1,4 +1,4 @@
-<h1>Descrição do projeto 
+<h1>Descrição do projeto</h1>
 O projeto VEMPRACASA tem o objetivo de estimular o apredizado e desenvolvimento dos alunos atráves de uma parceria entre a Faculdade de Tecnologia de São Paulo e a Oracle Corporation. A proposta imposta pela empresa era de um software que realizasse o agendamento dos espaços da Casa Oracle, visando as regras de limite máximo de pessoas, priorização de agendamentos, aprovação de eventos pendentes e disponibilização de lista de convidados. O projeto teve o prazo estimulado em um semestre com apresentações a cada três semanas para o parceiro.
     <ol>
         <li> Requisitos 
@@ -9,7 +9,7 @@ O projeto VEMPRACASA tem o objetivo de estimular o apredizado e desenvolvimento 
         </li>
     </ol>
 
-<h2> Tecnologias utilizadas 
+<h2> Tecnologias utilizadas </h2>
 Além das técnologias empregadas impostas pelo cliente parceiro, os alunos tambem tiveram a liberdade de analisar e utilizarem outras técnologias necessárias listadas abaixo:
 <ol>
     <li>Desenvolvimento agíl
