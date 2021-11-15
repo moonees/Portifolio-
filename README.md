@@ -26,7 +26,37 @@ Além das técnologias empregadas impostas pelo cliente parceiro, os alunos tamb
             <li>
                 Figma
             </li>
-            <p> Figma foi utilizado para a aplicação dos conceitos de UX/UI, prototipação dos user stories, wireframes e construção dos MVPs</p>
+            Figma foi utilizado para a aplicação dos conceitos de UX/UI, prototipação dos user stories, wireframes e construção dos MVPs
+        </ul>
+    </li>
+     <li>Desenvolvimento Back-end
+        <ul>
+            <li>
+                Java
+                </br>Utilizado para o gerenciamento do projeto, possibilitando realizar o planejo das sprints e distribuição das tarefas para cada integrante do grupo,                       podendo mapear e registrar o progresso da equipe e do projeto a cada etapa finalizada, desse modo, facilitando o desenvolvimento e previnindo a realização de retrabalho
+            </li>
+             <li>
+                Spring Boot
+                </br>Utilizado para o gerenciamento do projeto, possibilitando realizar o planejo das sprints e distribuição das tarefas para cada integrante do grupo,                       podendo mapear e registrar o progresso da equipe e do projeto a cada etapa finalizada, desse modo, facilitando o desenvolvimento e previnindo a realização de retrabalho
+            </li>
+        </ul>
+    </li> <li>Desenvolvimento Front-end
+        <ul>
+            <li>
+                Angular 
+                </br>Utilizado para o gerenciamento do projeto, possibilitando realizar o planejo das sprints e distribuição das tarefas para cada integrante do grupo,                       podendo mapear e registrar o progresso da equipe e do projeto a cada etapa finalizada, desse modo, facilitando o desenvolvimento e previnindo a realização de retrabalho
+            </li>
+        </ul>
+    </li> <li>Banco de dados
+        <ul>
+            <li>
+                Oracle
+                </br>Utilizado para o gerenciamento do projeto, possibilitando realizar o planejo das sprints e distribuição das tarefas para cada integrante do grupo,                       podendo mapear e registrar o progresso da equipe e do projeto a cada etapa finalizada, desse modo, facilitando o desenvolvimento e previnindo a realização de retrabalho
+            </li>
+            <li>
+                SQL Developer
+                </br>Utilizado para o gerenciamento do projeto, possibilitando realizar o planejo das sprints e distribuição das tarefas para cada integrante do grupo,                       podendo mapear e registrar o progresso da equipe e do projeto a cada etapa finalizada, desse modo, facilitando o desenvolvimento e previnindo a realização de retrabalho
+            </li>
         </ul>
     </li>
 </ol>
