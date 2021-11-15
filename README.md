@@ -33,11 +33,12 @@ Além das técnologias empregadas impostas pelo cliente parceiro, os alunos tamb
         <ul>
             <li>
                 Java
-                </br>Utilizado para o gerenciamento do projeto, possibilitando realizar o planejo das sprints e distribuição das tarefas para cada integrante do grupo,                       podendo mapear e registrar o progresso da equipe e do projeto a cada etapa finalizada, desse modo, facilitando o desenvolvimento e previnindo a realização de retrabalho
+                </br> Linguagem de programação orientada a objetos utilizada para o desenvolvimento back-end da aplicação com requisito técnico do cliente parceiro, junto ao framework Spring Boot para aumento de produtividade e configurações do projeto
             </li>
              <li>
                 Spring Boot
-                </br>Utilizado para o gerenciamento do projeto, possibilitando realizar o planejo das sprints e distribuição das tarefas para cada integrante do grupo,                       podendo mapear e registrar o progresso da equipe e do projeto a cada etapa finalizada, desse modo, facilitando o desenvolvimento e previnindo a realização de retrabalho
+                </br>Spring Boot é um framework open source para Java e Kotlin, utilizado para facilitar o desenvolvimento de aplicações,
+                configurações e gerenciamento de um projeto, dessa forma melhorando a produtividade. 
             </li>
         </ul>
     </li> <li>Desenvolvimento Front-end
