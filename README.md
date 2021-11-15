@@ -17,7 +17,7 @@ Além das técnologias empregadas impostas pelo cliente parceiro, os alunos tamb
             <li>
                 Jira
             </li>
-                <p>Jira foi utilizado para o gerenciamento do projeto, possibilitando realizar o planejo das sprints e distribuição das tarefas para cada integrante do grupo, podendo mapear e registrar o progresso da equipe e do projeto a cada etapa finalizada, desse modo, facilitando o desenvolvimento e previnindo a realização de retrabalho.</p>
+                Jira foi utilizado para o gerenciamento do projeto, possibilitando realizar o planejo das sprints e distribuição das tarefas para cada integrante do grupo, podendo mapear e registrar o progresso da equipe e do projeto a cada etapa finalizada, desse modo, facilitando o desenvolvimento e previnindo a realização de retrabalho.
             <li>
         </ul>
     </li>
