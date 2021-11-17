@@ -3,6 +3,7 @@
 <p align="center"> <img src="https://github.com/GabrielSG20/API4Sem2021/blob/documentation/images/banner.png"></p>
 <h2>Descrição do projeto</h2> 
 O projeto VEMPRACASA tem o objetivo de estimular o apredizado e desenvolvimento dos alunos atráves de uma parceria entre a Faculdade de Tecnologia de São Paulo e a Oracle Corporation. A proposta imposta pela empresa era de um software que realizasse o agendamento dos espaços da Casa Oracle, visando as regras de limite máximo de pessoas, priorização de agendamentos, aprovação de eventos pendentes e disponibilização de lista de convidados. O projeto teve o prazo estimulado em um semestre com apresentações a cada três semanas para o parceiro.
+Para obter mais informações sobre acesse o <a href="https://github.com/GabrielSG20/API4Sem2021">Github</a> do projeto
     <ol>
         <li> Requisitos 
              <ul><li> Utilização de metodologia agíl para planejamento e execução das sprints do projeto.</li></ul>
