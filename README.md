@@ -87,7 +87,7 @@ O projeto foi gerado utilizando o Spring initializer, criando o esboço do proje
   <details>
   <summary>Spring initialize</summary>
   <br>
-   <img style="border-radius: 50%;" src="" width="800px;" alt=""/>
+   <img style="border-radius: 50%;" src="https://github.com/moonees/portifolio-/blob/main/imgs/Arquitetura.PNG" width="550px;" alt=""/>
   </details>
   </br>
 Após ter o esboço do projeto em mãos, seguindo o conceito de boas práticas de programação a arquitetura do projeto foi definida em "Model","Controller", "Service", "Repository","Config" e "Constantes" separados por pacotes do Java.</p>
