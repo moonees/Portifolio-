@@ -94,7 +94,7 @@ Após ter o esboço do projeto em mãos, seguindo o conceito de boas práticas d
   <details>
   <summary>Arquitetura do Projeto</summary>
   <br>
-   <img style="border-radius: 50%;" src="https://github.com/moonees/portifolio-/blob/main/Arquitetura.PNG" width="800px;" alt=""/>
+   <img style="border-radius: 50%;" src="https://github.com/moonees/portifolio-/blob/main/Arquitetura.PNG" width="400px;" alt=""/>
   </details>
 
 <ul><li>Model: No pacote das models é onde está localizado as classes referentes as tabelas do banco de dados, ou seja cada classe referencia uma tabela, sendo cada variável uma coluna da tabela.</li>
