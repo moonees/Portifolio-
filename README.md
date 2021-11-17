@@ -80,21 +80,21 @@ Além das técnologias empregadas impostas pelo cliente parceiro, os alunos tamb
 </ol>
 
 <h2>Contribuições individuais</h2>
-<h3>Contribuições desenvolvedor Backend</h3>.
+<h3>Contribuições como desenvolvedor Backend</h3>.
 <p>Entre as responsabilidade de um desenvolvedor back-end estão: Arquitetura do projeto, escolha de tecnologia, entendimento das regras de negócio e realização da lógia de programação.</br>
 Como desenvolvedor participei ativamente em cada uma dessas partes.
 O projeto foi gerado utilizando o Spring initializer, criando o esboço do projeto com as dependências necessárias para as primeiras linhas de código.
   <details>
   <summary>Spring initialize</summary>
   <br>
-   <img style="border-radius: 50%;" src="https://github.com/moonees/portifolio-/blob/main/imgs/Arquitetura.PNG" width="550px;" alt=""/>
+   <img style="border-radius: 50%;" src="https://github.com/moonees/portifolio-/blob/main/imgs/spring%20io.PNG" width="450px;" alt=""/>
   </details>
   </br>
 Após ter o esboço do projeto em mãos, seguindo o conceito de boas práticas de programação a arquitetura do projeto foi definida em "Model","Controller", "Service", "Repository","Config" e "Constantes" separados por pacotes do Java.</p>
   <details>
   <summary>Arquitetura do Projeto</summary>
   <br>
-   <img style="border-radius: 50%;" src="https://github.com/moonees/portifolio-/blob/main/Arquitetura.PNG" width="400px;" alt=""/>
+   <img style="border-radius: 50%;" src="https://github.com/moonees/portifolio-/blob/main/imgs/Arquitetura.PNG" width="350px;" alt=""/>
   </details>
 
 <ul><li>Model: No pacote das models é onde está localizado as classes referentes as tabelas do banco de dados, ou seja cada classe referencia uma tabela, sendo cada variável uma coluna da tabela.</li>
@@ -104,6 +104,37 @@ Após ter o esboço do projeto em mãos, seguindo o conceito de boas práticas d
 <li>Config: No pacote Config estão as classes responsaveis por conter as configurações do projeto(Cors e security).</li>
 <li>Constantes: O pacote de constantes foi gerado para a reutilização de código e otimização do trabalho, sua função é basicamente declarar variáveis que serão utilizadas repetitivamentes no projeto, dessa maneira a variável pode ser reutilizada usando menos linhas de código e de maneira mais rápida e facíl.</li>
 </ul>
+
+<p>Como desenvolvedor, além dos passos citados a cima, a um ressalto no desenvolvimento do serviço para envio de emails automaticamente(finalizado) e utilização das classes de segurança do Spring(em andamento), onde tem ênfase por serem conhecimentos novos adquiridos durante o desenvolvimento do projeto.</p>
+<ul>
+    <li>
+        Envio de email: Durante a exibição da proposta de trabalho pelo cliente, foi evidenciado a necessidade de um envio de notificação para os convidados do evento, de forma automática e dinâmica, visto isso, a equipe definiu como forma de notificação um email.
+        Para a realização desse serviço foi utilizado a dependência do Java Mail
+        <details>
+  <summary>Dependência</summary>
+  <br>
+   <img style="border-radius: 50%;" src="" width="140px;" alt=""/>
+  </details>
+        Após a inserção da dependência foi necessário a criação de uma classe de serviço para armazenar as regras de negócio do envio de email e sua lógica de programação
+        <summary>Service email</summary>
+  <br>
+   <img style="border-radius: 50%;" src="" width="140px;" alt=""/>
+  </details>
+    O metódo "envioEmail" é responsavél por receber as informações que serão preenchidas no envio como: Destinatario, corpo do email e assunto antes de obter as informações ele verifica se a lista de convidados está preenchida. 
+        <summary>Método envioEmail</summary>
+  <br>
+   <img style="border-radius: 50%;" src="" width="140px;" alt=""/>
+  </details>
+        O destinatário é recebido através de um .get na lista de convidados disponibilizada, o corpo do email e assunto estão defidos no pacote de "Constantes" para que não tenha necessidade de rescrever as Strings em outras situações.</br>
+        Dentro de "envioEmail" é chamado outro metódo com o nome de "definicoesEmail" esté metódo é responsavel por setar as informações recebidas pelo metódo declarado acima, e após realizar a definição das informações ele envia o email utilizando o ".send()" na linha 110.
+            <summary>Método definicoesEmail</summary>
+  <br>
+   <img style="border-radius: 50%;" src="" width="140px;" alt=""/>
+  </details>
+    </li>
+</ul>
+
+
 
     
 
