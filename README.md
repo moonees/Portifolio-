@@ -45,18 +45,33 @@ Além das técnologias empregadas impostas pelo cliente parceiro, os alunos tamb
         <ul>
             <li>
                 Angular 
-                </br>Utilizado para o gerenciamento do projeto, possibilitando realizar o planejo das sprints e distribuição das tarefas para cada integrante do grupo,                       podendo mapear e registrar o progresso da equipe e do projeto a cada etapa finalizada, desse modo, facilitando o desenvolvimento e previnindo a realização de retrabalho
+                </br>O desenvolvimento front-end foi realizado com Angular uma plataforma para desenvolvimento de aplicações web com um código open source com base em TypeScript, foi escolhido pela equipe pela possibilidade de criação de páginas dinâmicas e otimização de trabalho e reinscrita de código. 
+            </li>
+             <li>
+                MirageJS
+                </br>Para a realização de testes(quando não havia conexão entre back-end e front-end) foi utilizado o MirageJS, ele funciona como uma API porém com dados mockados, dessa forma, tirando a dependência que o front tem sobre os endpoints do back-end durante o desenvolvimento.
             </li>
         </ul>
     </li> <li>Banco de dados
         <ul>
             <li>
                 Oracle
-                </br>Utilizado para o gerenciamento do projeto, possibilitando realizar o planejo das sprints e distribuição das tarefas para cada integrante do grupo,                       podendo mapear e registrar o progresso da equipe e do projeto a cada etapa finalizada, desse modo, facilitando o desenvolvimento e previnindo a realização de retrabalho
+                </br> Na parte de armazenamento de dados, foi utilizado o Oracle database em sua versão 12c, um SGBD relacional, escolhido por atender todas as necessidades do projeto e ser uma ferramenta da empresa parceira.
             </li>
             <li>
                 SQL Developer
-                </br>Utilizado para o gerenciamento do projeto, possibilitando realizar o planejo das sprints e distribuição das tarefas para cada integrante do grupo,                       podendo mapear e registrar o progresso da equipe e do projeto a cada etapa finalizada, desse modo, facilitando o desenvolvimento e previnindo a realização de retrabalho
+                </br> Um ambiente de desenvolvimento que possibilita a realização de scripts SQL em bancos de dados Oracle.
+            </li>
+        </ul>
+    </li><li>Deploy
+        <ul>
+            <li>
+                Oracle Cloud 
+                </br> Infraestrura em nuvem para realização de deploy do banco de dados em produção, escolhido pela equipe por ser uma ferramenta da empresa parceira
+            </li>
+            <li>
+                Heroku
+                </br> Plataforma em nuvem como um serviço que suporta várias linguagens de programação, utilizado para realizar o deploy da aplicação web em ambiente de produção.
             </li>
         </ul>
     </li>
