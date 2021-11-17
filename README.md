@@ -135,7 +135,7 @@ Após ter o esboço do projeto em mãos, seguindo o conceito de boas práticas d
     </li>
 </ul>
 
-<h3> :open_file_folder: Aprendizados efetivos</h3>
+<h2> :open_file_folder: Aprendizados efetivos</h2>
 <ol>
     <li>Metodologia Scrum 
         <ul>
