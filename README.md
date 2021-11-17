@@ -9,7 +9,7 @@ Para obter mais informações sobre acesse o <a href="https://github.com/Gabriel
             <ul><li> Uso da linguagem de programação Java junto ao framework Spring Boot.</li></ul>
             <ul><li> Banco de dados Oracle para armazenamento das informações</li></ul>
             <ul><li> Deploy da aplicação em um ambiente de nuvem (de preferência Oracle Cloud)</li></ul>
-<h3> :computer: Tecnologias utilizadas</h3> 
+<h2> :computer: Tecnologias utilizadas</h2> 
 Além das técnologias empregadas impostas pelo cliente parceiro, os alunos tambem tiveram a liberdade de analisar e utilizarem outras técnologias necessárias listadas abaixo:
 <ol>
     <li>Desenvolvimento agíl
