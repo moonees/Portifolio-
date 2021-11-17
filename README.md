@@ -90,7 +90,7 @@ O projeto foi gerado utilizando o Spring initializer, criando o esboço do proje
    <img style="border-radius: 50%;" src="" width="800px;" alt=""/>
   </details>
   </br>
-Após ter o esboço do projeto em mãos, seguindo o conceito de boas práticas de programação a arquitetura do projeto foi definida em "Model","Controller", "Service", "Repository" separados por pacotes do Java.</p>
+Após ter o esboço do projeto em mãos, seguindo o conceito de boas práticas de programação a arquitetura do projeto foi definida em "Model","Controller", "Service", "Repository","Config" e "Constantes" separados por pacotes do Java.</p>
   <details>
   <summary>Arquitetura do Projeto</summary>
   <br>
