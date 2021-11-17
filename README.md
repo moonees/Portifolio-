@@ -98,29 +98,11 @@ Após ter o esboço do projeto em mãos, seguindo o conceito de boas práticas d
   </details>
 
 <ul><li>Model: No pacote das models é onde está localizado as classes referentes as tabelas do banco de dados, ou seja cada classe referencia uma tabela, sendo cada variável uma coluna da tabela.</li>
-  <details>
-  <summary>Model</summary>
-  <br>
-   <img style="border-radius: 50%;" src="" width="800px;" alt=""/>
-  </details>
 <li>Controller: No pacote dos Controllers é onde estão as chamadas dos endpoints, foram criadas uma classe de controller para cada model. Sua função é indicar qual requesição deve ser realizada e qual seu endereço, porém não se deve realizar o desenvolvimento de regras de negócio nessas classes, para chamada dos metódos com a lógica e regras de negócio é necessário referenciar um service.</li>
-      <details>
-  <summary>Controller</summary>
-  <br>
-   <img style="border-radius: 50%;" src="" width="800px;" alt=""/>
-  </details>
 <li>Service: No pacote dos services estão as classes responsaveis por conter as regras de negócios e os metódos com as lógicas necessárias, porém caso algum metódo necessite realizar operações no banco de dados, deve se ser referenciado um repository.</li>
-  <details>
-  <summary>Service</summary>
-  <br>
-   <img style="border-radius: 50%;" src="" width="800px;" alt=""/>
-  </details>
 <li>Repository: No pacote dos repositorys é onde se encontra as interfaces responsáveis por realizar as operações no banco de dados, a interface extende a classe "JPARepository", esta classe otimiza o desenvolvimento pois todos os metódos para realização de uma operação no banco já estão prontos, necessitando apenas da sua chamada em sua classe repository.</li>
-  <details>
-  <summary>Repository</summary>
-  <br>
-   <img style="border-radius: 50%;" src="" width="800px;" alt=""/>
-  </details>
+<li>Config: No pacote Config estão as classes responsaveis por conter as configurações do projeto(Cors e security).</li>
+<li>Constantes: O pacote de constantes foi gerado para a reutilização de código e otimização do trabalho, sua função é basicamente declarar variáveis que serão utilizadas repetitivamentes no projeto, dessa maneira a variável pode ser reutilizada usando menos linhas de código e de maneira mais rápida e facíl.</li>
 </ul>
 
     
