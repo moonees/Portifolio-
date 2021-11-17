@@ -81,15 +81,46 @@ Além das técnologias empregadas impostas pelo cliente parceiro, os alunos tamb
 
 <h2>Contribuições individuais</h2>
 <h3>Contribuições desenvolvedor Backend</h3>.
-<p>Entre as responsabilidade de um desenvolvedor back-end estão: Arquitetura do projeto, escolha de tecnologia, entendimento das regras de negócio,
-realização da lógia de programação. Como desenvolvedor participei ativamente em cada uma dessas partes.
+<p>Entre as responsabilidade de um desenvolvedor back-end estão: Arquitetura do projeto, escolha de tecnologia, entendimento das regras de negócio e realização da lógia de programação.</br>
+Como desenvolvedor participei ativamente em cada uma dessas partes.
 O projeto foi gerado utilizando o Spring initializer, criando o esboço do projeto com as dependências necessárias para as primeiras linhas de código.
+  <details>
+  <summary>Spring initialize</summary>
+  <br>
+   <img style="border-radius: 50%;" src="" width="800px;" alt=""/>
+  </details>
+  </br>
 Após ter o esboço do projeto em mãos, seguindo o conceito de boas práticas de programação a arquitetura do projeto foi definida em "Model","Controller", "Service", "Repository" separados por pacotes do Java.</p>
+  <details>
+  <summary>Arquitetura do Projeto</summary>
+  <br>
+   <img style="border-radius: 50%;" src="" width="800px;" alt=""/>
+  </details>
 
 <ul><li>Model: No pacote das models é onde está localizado as classes referentes as tabelas do banco de dados, ou seja cada classe referencia uma tabela, sendo cada variável uma coluna da tabela.</li>
+  <details>
+  <summary>Model</summary>
+  <br>
+   <img style="border-radius: 50%;" src="" width="800px;" alt=""/>
+  </details>
 <li>Controller: No pacote dos Controllers é onde estão as chamadas dos endpoints, foram criadas uma classe de controller para cada model. Sua função é indicar qual requesição deve ser realizada e qual seu endereço, porém não se deve realizar o desenvolvimento de regras de negócio nessas classes, para chamada dos metódos com a lógica e regras de negócio é necessário referenciar um service.</li>
+      <details>
+  <summary>Controller</summary>
+  <br>
+   <img style="border-radius: 50%;" src="" width="800px;" alt=""/>
+  </details>
 <li>Service: No pacote dos services estão as classes responsaveis por conter as regras de negócios e os metódos com as lógicas necessárias, porém caso algum metódo necessite realizar operações no banco de dados, deve se ser referenciado um repository.</li>
+  <details>
+  <summary>Service</summary>
+  <br>
+   <img style="border-radius: 50%;" src="" width="800px;" alt=""/>
+  </details>
 <li>Repository: No pacote dos repositorys é onde se encontra as interfaces responsáveis por realizar as operações no banco de dados, a interface extende a classe "JPARepository", esta classe otimiza o desenvolvimento pois todos os metódos para realização de uma operação no banco já estão prontos, necessitando apenas da sua chamada em sua classe repository.</li>
+  <details>
+  <summary>Repository</summary>
+  <br>
+   <img style="border-radius: 50%;" src="" width="800px;" alt=""/>
+  </details>
 </ul>
 
     
