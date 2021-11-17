@@ -80,7 +80,7 @@ Além das técnologias empregadas impostas pelo cliente parceiro, os alunos tamb
 </ol>
 
 <h2>Contribuições individuais</h2>
-<h3>Contribuições como desenvolvedor Backend</h3>.
+<h3>Contribuições como desenvolvedor Backend</h3>
 <p>Entre as responsabilidade de um desenvolvedor back-end estão: Arquitetura do projeto, escolha de tecnologia, entendimento das regras de negócio e realização da lógia de programação.</br>
 Como desenvolvedor participei ativamente em cada uma dessas partes.
 O projeto foi gerado utilizando o Spring initializer, criando o esboço do projeto com as dependências necessárias para as primeiras linhas de código.
@@ -125,14 +125,14 @@ Após ter o esboço do projeto em mãos, seguindo o conceito de boas práticas d
         <details>
         <summary>Método envioEmail</summary>
         <br>
-        <img style="border-radius: 50%;" src="https://github.com/moonees/portifolio-/blob/main/imgs/email.PNG" width="250px;" alt=""/>
+        <img style="border-radius: 50%;" src="https://github.com/moonees/portifolio-/blob/main/imgs/email.PNG" width="310px;" alt=""/>
         </details>
         O destinatário é recebido através de um .get na lista de convidados disponibilizada, o corpo do email e assunto estão defidos no pacote de "Constantes" para que não tenha necessidade de rescrever as Strings em outras situações.</br>
         Dentro de "envioEmail" é chamado outro metódo com o nome de "definicoesEmail" esté metódo é responsavel por setar as informações recebidas pelo metódo declarado acima, e após realizar a definição das informações ele envia o email utilizando o ".send()" na linha 110.
         <details>
             <summary>Método definicoesEmail</summary>
             <br>
-            <img style="border-radius: 50%;" src="https://github.com/moonees/portifolio-/blob/main/imgs/definicoesEmail.PNG" width="250px;" alt=""/>
+            <img style="border-radius: 50%;" src="https://github.com/moonees/portifolio-/blob/main/imgs/definicoesEmail.PNG" width="310px;" alt=""/>
         </details>
     </li>
 </ul>
