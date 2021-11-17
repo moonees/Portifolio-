@@ -1,4 +1,4 @@
-<h1 align="center">API 4º Semestre Banco de Dados</h1>
+<h1 align="center"> :pushpin: API 4º Semestre Banco de Dados</h1>
 
 <p align="center"> <img src="https://github.com/GabrielSG20/API4Sem2021/blob/documentation/images/banner.png"></p>
 <h2>Descrição do projeto</h2> 
