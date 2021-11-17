@@ -137,7 +137,7 @@ Após ter o esboço do projeto em mãos, seguindo o conceito de boas práticas d
         </details>
     </li>
 </ul>
-
+ <h3 align="center">Autor</h3>
 <table align="center">
    <tr>
     <td align="center"><a href="https://www.linkedin.com/in/ramon-fernandes-19244a1ab/"><img style="border-radius: 50%;" src="https://media-exp1.licdn.com/dms/image/C5603AQH3yT2WyYhfTw/profile-displayphoto-shrink_200_200/0/1621870382930?e=1642636800&v=beta&t=dvJVFBSa7wh6vHM-FxAbwCuG_gNtt0OnjtCSLCdaI2o" width="200px;" alt=""/><br/><b>Ramon Rosario</b></a>
