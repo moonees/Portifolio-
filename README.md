@@ -125,14 +125,14 @@ Após ter o esboço do projeto em mãos, seguindo o conceito de boas práticas d
         <details>
         <summary>Método envioEmail</summary>
         <br>
-        <img style="border-radius: 50%;" src="https://github.com/moonees/portifolio-/blob/main/imgs/email.PNG" width="250px;" alt=""/>
+        <img style="border-radius: 50%;" src="https://github.com/moonees/portifolio-/blob/main/imgs/email.PNG" width="310px;" alt=""/>
         </details>
         O destinatário é recebido através de um .get na lista de convidados disponibilizada, o corpo do email e assunto estão defidos no pacote de "Constantes" para que não tenha necessidade de rescrever as Strings em outras situações.</br>
         Dentro de "envioEmail" é chamado outro metódo com o nome de "definicoesEmail" esté metódo é responsavel por setar as informações recebidas pelo metódo declarado acima, e após realizar a definição das informações ele envia o email utilizando o ".send()" na linha 110.
         <details>
             <summary>Método definicoesEmail</summary>
             <br>
-            <img style="border-radius: 50%;" src="https://github.com/moonees/portifolio-/blob/main/imgs/definicoesEmail.PNG" width="250px;" alt=""/>
+            <img style="border-radius: 50%;" src="https://github.com/moonees/portifolio-/blob/main/imgs/definicoesEmail.PNG" width="310px;" alt=""/>
         </details>
     </li>
 </ul>
