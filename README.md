@@ -113,26 +113,26 @@ Após ter o esboço do projeto em mãos, seguindo o conceito de boas práticas d
         <details>
             <summary>Dependência</summary>
             <br>
-            <img style="border-radius: 50%;" src="" width="140px;" alt=""/>
+            <img style="border-radius: 50%;" src="https://github.com/moonees/portifolio-/blob/main/imgs/dependencia.PNG" width="140px;" alt=""/>
         </details>
         Após a inserção da dependência foi necessário a criação de uma classe de serviço para armazenar as regras de negócio do envio de email e sua lógica de programação
         <details>
         <summary>Service email</summary>
         <br>
-        <img style="border-radius: 50%;" src="" width="140px;" alt=""/>
+        <img style="border-radius: 50%;" src="https://github.com/moonees/portifolio-/blob/main/imgs/email%20service.PNG" width="140px;" alt=""/>
         </details>
     O metódo "envioEmail" é responsavél por receber as informações que serão preenchidas no envio como: Destinatario, corpo do email e assunto antes de obter as informações ele verifica se a lista de convidados está preenchida. 
         <details>
         <summary>Método envioEmail</summary>
         <br>
-        <img style="border-radius: 50%;" src="" width="140px;" alt=""/>
+        <img style="border-radius: 50%;" src="https://github.com/moonees/portifolio-/blob/main/imgs/email.PNG" width="140px;" alt=""/>
         </details>
         O destinatário é recebido através de um .get na lista de convidados disponibilizada, o corpo do email e assunto estão defidos no pacote de "Constantes" para que não tenha necessidade de rescrever as Strings em outras situações.</br>
         Dentro de "envioEmail" é chamado outro metódo com o nome de "definicoesEmail" esté metódo é responsavel por setar as informações recebidas pelo metódo declarado acima, e após realizar a definição das informações ele envia o email utilizando o ".send()" na linha 110.
         <details>
             <summary>Método definicoesEmail</summary>
             <br>
-            <img style="border-radius: 50%;" src="" width="140px;" alt=""/>
+            <img style="border-radius: 50%;" src="https://github.com/moonees/portifolio-/blob/main/imgs/definicoesEmail.PNG" width="140px;" alt=""/>
         </details>
     </li>
 </ul>
