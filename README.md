@@ -2,11 +2,9 @@
 
 <p align="center"> <img src="https://github.com/GabrielSG20/API4Sem2021/blob/documentation/images/banner.png"></p>
 <h2> :pencil2: Descrição do projeto</h2> 
-O projeto VEMPRACASA tem o objetivo de estimular o apredizado e desenvolvimento dos alunos atráves de uma parceria entre a Faculdade de Tecnologia de São Paulo e a Oracle Corporation. A proposta imposta pela empresa era de um software que realizasse o agendamento dos espaços da Casa Oracle, visando as regras de limite máximo de pessoas, priorização de agendamentos, aprovação de eventos pendentes e disponibilização de lista de convidados. O projeto teve o prazo estimulado em um semestre com apresentações a cada três semanas para o parceiro.</br>
-
+O projeto VEMPRACASA tem o objetivo de estimular o apredizado e desenvolvimento dos alunos atráves de uma parceria entre a Faculdade de Tecnologia de São Paulo e a Oracle Corporation. A proposta imposta pela empresa era de um software que realizasse o agendamento dos espaços da Casa Oracle, visando as regras de limite máximo de pessoas, priorização de agendamentos, aprovação de eventos pendentes e disponibilização de lista de convidados. O projeto teve o prazo estimulado em um semestre com apresentações a cada três semanas para o parceiro.
 Para obter mais informações sobre acesse o <a href="https://github.com/GabrielSG20/API4Sem2021">Github</a> do projeto
-
-<h3>:bulb: Requisitos</h3> 
+         <h3>:bulb: Requisitos</h3> 
             <ul><li> Utilização de metodologia agíl para planejamento e execução das sprints do projeto.</li></ul>
             <ul><li> Uso da linguagem de programação Java junto ao framework Spring Boot.</li></ul>
             <ul><li> Banco de dados Oracle para armazenamento das informações</li></ul>
@@ -136,6 +134,47 @@ Após ter o esboço do projeto em mãos, seguindo o conceito de boas práticas d
         </details>
     </li>
 </ul>
+
+<h3> :open_file_folder: Aprendizados efetivos</h3>
+<ol>
+    <li>Metodologia Scrum 
+        <ul>
+            <li>
+                Criação do Product Backlog pela metodologia Product Backlog Building (PBB);
+            </li>
+            <li>
+                Medição de esforço por sprint, adequando da melohr maneira o que pode ser entregue como mvp para o cliente
+            </li>
+        </ul>
+    </li>
+    <li>Desenvolvimento back-end
+        <ul>
+            <li>
+                Boas práticas de programação
+            </li>
+            <li>
+                Configuração de classes de segurança do Spring Security
+            </li>
+            <li>
+                Criação de serviço para envio de email
+            </li>
+            <li>
+                Configuração de conexão com um banco de dados em nuvem
+            </li>
+        </ul>
+    </li>
+    <li>Deploy em produção
+        <ul>
+            <li>
+                Configuração para deploy de aplicação em ambiente em nuvem(Heroku)
+            </li>
+            <li>
+                Deploy do banco de dados na Oracle Cloud
+            </li>
+        </ul>
+    </li>
+</ol>
+
  <h3 align="center">  :necktie: Autor</h3>
 <table align="center">
    <tr>
