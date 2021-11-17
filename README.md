@@ -1,11 +1,11 @@
 <h1 align="center"> :pushpin: API 4º Semestre Banco de Dados</h1>
 
 <p align="center"> <img src="https://github.com/GabrielSG20/API4Sem2021/blob/documentation/images/banner.png"></p>
-<h2>Descrição do projeto</h2> 
+<h2> :pencil2: Descrição do projeto</h2> 
 O projeto VEMPRACASA tem o objetivo de estimular o apredizado e desenvolvimento dos alunos atráves de uma parceria entre a Faculdade de Tecnologia de São Paulo e a Oracle Corporation. A proposta imposta pela empresa era de um software que realizasse o agendamento dos espaços da Casa Oracle, visando as regras de limite máximo de pessoas, priorização de agendamentos, aprovação de eventos pendentes e disponibilização de lista de convidados. O projeto teve o prazo estimulado em um semestre com apresentações a cada três semanas para o parceiro.
 Para obter mais informações sobre acesse o <a href="https://github.com/GabrielSG20/API4Sem2021">Github</a> do projeto
     <ol>
-        <li> Requisitos 
+        <li> :bulb: Requisitos 
              <ul><li> Utilização de metodologia agíl para planejamento e execução das sprints do projeto.</li></ul>
             <ul><li> Uso da linguagem de programação Java junto ao framework Spring Boot.</li></ul>
             <ul><li> Banco de dados Oracle para armazenamento das informações</li></ul>
@@ -13,7 +13,7 @@ Para obter mais informações sobre acesse o <a href="https://github.com/Gabriel
         </li>
     </ol>
 
-<h2> Tecnologias utilizadas</h2> 
+<h2> :computer: Tecnologias utilizadas</h2> 
 Além das técnologias empregadas impostas pelo cliente parceiro, os alunos tambem tiveram a liberdade de analisar e utilizarem outras técnologias necessárias listadas abaixo:
 <ol>
     <li>Desenvolvimento agíl
@@ -81,7 +81,7 @@ Além das técnologias empregadas impostas pelo cliente parceiro, os alunos tamb
     </li>
 </ol>
 
-<h2>Contribuições individuais</h2>
+<h2> :triangular_flag_on_post: Contribuições individuais</h2>
 <h3>Contribuições como desenvolvedor Backend</h3>
 <p>Entre as responsabilidade de um desenvolvedor back-end estão: Arquitetura do projeto, escolha de tecnologia, entendimento das regras de negócio e realização da lógia de programação.</br>
 Como desenvolvedor participei ativamente em cada uma dessas partes.
@@ -138,7 +138,7 @@ Após ter o esboço do projeto em mãos, seguindo o conceito de boas práticas d
         </details>
     </li>
 </ul>
- <h3 align="center">Autor</h3>
+ <h3 align="center">  :necktie: Autor</h3>
 <table align="center">
    <tr>
     <td align="center"><a href="https://www.linkedin.com/in/ramon-fernandes-19244a1ab/"><img style="border-radius: 50%;" src="https://media-exp1.licdn.com/dms/image/C5603AQH3yT2WyYhfTw/profile-displayphoto-shrink_200_200/0/1621870382930?e=1642636800&v=beta&t=dvJVFBSa7wh6vHM-FxAbwCuG_gNtt0OnjtCSLCdaI2o" width="200px;" alt=""/><br/><b>Ramon Rosario</b></a>
