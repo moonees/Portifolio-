@@ -103,6 +103,12 @@ Após ter o esboço do projeto em mãos, seguindo o conceito de boas práticas d
 <li>Constantes: O pacote de constantes foi gerado para a reutilização de código e otimização do trabalho, sua função é basicamente declarar variáveis que serão utilizadas repetitivamentes no projeto, dessa maneira a variável pode ser reutilizada usando menos linhas de código e de maneira mais rápida e facíl.</li>
 </ul>
 
+<p>Junto a arquitetura MVC utilizada, também foram utilizado os padrões de projeto "FACADE" e "PROXY".</p>
+<ul>
+         <li> PROXY: Foi utilizado sobre a implementação da JPA já que o padrão Proxy, funciona como uma interface para outra classe trazendo metódos já escritos com o intuito de facilitar o desenvolvimento</li>
+         <li> FACADE: Padrão de projeto Facade oculta toda a complexidade de uma ou mais classes através de uma Facade (Fachada). Esse padrão foi utilizado junto ao Spring Boot para facilitar o desenvolvimento da API, gerando os verbos HTTP apenas introduzindo suas anotações como por ex: @Postmapping para requisições com corpo, ou @GetMapping para obter dados através de um requisição</li>
+</ul>         
+
 <p>Como desenvolvedor, além dos passos citados a cima, a um ressalto no desenvolvimento do serviço para envio de emails automaticamente(finalizado) e utilização das classes de segurança do Spring(em andamento), onde tem ênfase por serem conhecimentos novos adquiridos durante o desenvolvimento do projeto.</p>
 <ul>
     <li>
